@@ -1,0 +1,23 @@
+<?php
+session_start();
+require 'db_connection.php';
+
+if (!isset($_SESSION['username'])) {
+    header('Location: login.html');
+    exit();
+}
+
+$username = $_SESSION['username'];
+$query = $conn->prepare("SELECT * FROM agents WHERE username = ?");
+$query->bind_param("s", $username);
+$query->execute();
+$agent = $query->get_result()->fetch_assoc();
+
+echo "<div class='agent-profile'>
+        <img src='{$agent['photo']}' alt='Profile Picture' class='agent-photo'>
+        <p>Name: {$agent['name']}</p>
+        <p>Username: {$agent['username']}</p>
+        <p>Email: {$agent['email']}</p>
+        <p>Phone: {$agent['phone']}</p>
+      </div>";
+?>

@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+body {
+    background: url(images/pic1.JPEG);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    margin-top: 200px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack the nav items vertically */
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #search-filter {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #property-list, #agent-list {
+        flex-direction: column;
+    }
+
+    #property-list .property-card, #agent-list .agent-card {
+        flex: 1 1 100%; /* Full width on mobile */
+    }
+
+    .login-container {
+        width: 90%; /* Adjust width to fit smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    button {
+        padding: 12px; /* Adjust button size for better tap targets */
+    }
+
+    input {
+        width: 100%; /* Ensure inputs are full width on mobile */
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #property-list .property-card, #agent-list .agent-card {
+        flex: 1 1 45%; /* Two-column layout for medium screens */
+    }
+
+    .login-container {
+        width: 80%; /* Adjust container width for tablets */
+        margin: 50px auto;
+    }
+}
+
+/* Update in css/style.css */
+.login-container {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    width: 500px;
+    color: white;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

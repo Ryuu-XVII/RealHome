@@ -1,0 +1,232 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - RealHome</title>
+    <link rel="stylesheet" href="register_style.css">
+     <link rel="icon" type="image/x-icon" href="images/logo.jpeg">
+    <style type="text/css">
+        body {
+            background: url(images/pic1.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    margin-top: auto;
+}
+
+/* Register Container Styles */
+.register-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white for contrast */
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit width on larger screens */
+    width: 90%; /* Take up most of the screen width on mobile */
+    margin: 100px auto; /* Centered container */
+    color: white;
+    text-align: center;
+}
+
+/* Form Styles */
+h2 {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .register-container {
+        margin: 50px auto; /* Reduce margin for smaller screens */
+        width: 90%; /* Take up most of the screen width on mobile */
+        padding: 20px; /* Adjust padding for small screens */
+    }
+
+    input, button {
+        font-size: 16px; /* Ensure text remains readable */
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .register-container {
+        width: 70%; /* Slightly larger on tablets */
+    }
+}
+
+   
+    </style>
+</head>
+<body>
+   <header>
+    <h1>RealHome</h1>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="listing.php">Listings</a></li>
+            <li><a href="agents.php">Agents</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <div class="register-container">
+        <h2 style="text-transform: uppercase">Agent Registration</h2>
+        <form id="registerForm" action="register.php" method="POST" enctype="multipart/form-data">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="photo">Profile Picture:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="scripts1.js"></script>
+
+    <footer>
+        <p>&copy; 2024 RealHome. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

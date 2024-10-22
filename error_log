@@ -1,0 +1,774 @@
+[26-Sep-2024 08:46:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[26-Sep-2024 08:46:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[26-Sep-2024 08:46:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[28-Sep-2024 08:46:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[28-Sep-2024 08:59:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[30-Sep-2024 06:49:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[30-Sep-2024 07:08:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[30-Sep-2024 07:22:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[30-Sep-2024 07:24:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[30-Sep-2024 07:26:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[30-Sep-2024 07:26:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[30-Sep-2024 07:27:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password_hash' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:30
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(30): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 30
+[30-Sep-2024 07:30:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'password' doesn't have a default value in /home/ryuuxvii/public_html/RealEstate/register.php:41
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(41): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 41
+[30-Sep-2024 07:32:36 UTC] PHP Warning:  Undefined array key "password" in /home/ryuuxvii/public_html/RealEstate/login.php on line 18
+[30-Sep-2024 07:32:52 UTC] PHP Warning:  Undefined array key "password" in /home/ryuuxvii/public_html/RealEstate/login.php on line 18
+[01-Oct-2024 09:59:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Adnaan22222' for key 'agents.username' in /home/ryuuxvii/public_html/RealEstate/register.php:41
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(41): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 41
+[22-Oct-2024 06:34:35 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 125
+[22-Oct-2024 06:34:35 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 126
+[22-Oct-2024 06:34:35 UTC] PHP Warning:  Undefined array key "garage" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 127
+[22-Oct-2024 06:34:35 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 128
+[22-Oct-2024 06:45:27 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 369
+[22-Oct-2024 06:45:27 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 06:45:27 UTC] PHP Warning:  Undefined array key "garage" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 06:45:27 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 06:45:27 UTC] PHP Warning:  Undefined array key "image_url" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 06:48:51 UTC] PHP Warning:  Undefined array key "garage" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 06:48:51 UTC] PHP Warning:  Undefined array key "image_url" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 06:50:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price' at row 1 in /home/ryuuxvii/public_html/RealEstate/list_property.php:41
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/list_property.php(41): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 41
+[22-Oct-2024 06:54:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price' at row 1 in /home/ryuuxvii/public_html/RealEstate/list_property.php:41
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/list_property.php(41): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 41
+[22-Oct-2024 06:54:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price' at row 1 in /home/ryuuxvii/public_html/RealEstate/list_property.php:41
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/list_property.php(41): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 41
+[22-Oct-2024 06:56:40 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for host failed: Name or service not known in /home/ryuuxvii/public_html/RealEstate/profile.php on line 3
+[22-Oct-2024 06:56:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for host failed: Name or service not known in /home/ryuuxvii/public_html/RealEstate/profile.php:3
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/profile.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/profile.php on line 3
+[22-Oct-2024 06:59:51 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for host failed: Name or service not known in /home/ryuuxvii/public_html/RealEstate/profile.php on line 3
+[22-Oct-2024 06:59:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for host failed: Name or service not known in /home/ryuuxvii/public_html/RealEstate/profile.php:3
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/profile.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/profile.php on line 3
+[22-Oct-2024 07:00:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'price' at row 1 in /home/ryuuxvii/public_html/RealEstate/list_property.php:41
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/list_property.php(41): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 41
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 358
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 360
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 363
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 364
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 366
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 358
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 360
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 363
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 364
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:01:21 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 366
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:03:36 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:03:38 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:05:54 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:06:05 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:06:18 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:06:34 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 365
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 367
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 370
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:07:49 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 366
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 368
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 374
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 366
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 368
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:09:32 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 374
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 366
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 368
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 374
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 366
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "status" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 368
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "bedrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 371
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "bathrooms" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 372
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 373
+[22-Oct-2024 07:09:34 UTC] PHP Warning:  Undefined array key "floor_size" in /home/ryuuxvii/public_html/RealEstate/profile.php on line 374
+[22-Oct-2024 07:22:55 UTC] PHP Warning:  Undefined array key "listingType" in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 15
+[22-Oct-2024 07:22:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'listing_type' cannot be null in /home/ryuuxvii/public_html/RealEstate/list_property.php:41
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/list_property.php(41): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 41
+[22-Oct-2024 07:25:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'listing_type' at row 1 in /home/ryuuxvii/public_html/RealEstate/list_property.php:45
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/list_property.php(45): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 45
+[22-Oct-2024 07:27:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'listing_type' at row 1 in /home/ryuuxvii/public_html/RealEstate/list_property.php:69
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/list_property.php(69): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 69
+[22-Oct-2024 07:27:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'listing_type' at row 1 in /home/ryuuxvii/public_html/RealEstate/list_property.php:69
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/list_property.php(69): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/list_property.php on line 69
+[22-Oct-2024 07:38:44 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/index.php on line 171
+[22-Oct-2024 07:38:44 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 173
+[22-Oct-2024 07:38:44 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/index.php on line 171
+[22-Oct-2024 07:38:44 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 173
+[22-Oct-2024 07:38:52 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/index.php on line 171
+[22-Oct-2024 07:38:52 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 173
+[22-Oct-2024 07:38:52 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/index.php on line 171
+[22-Oct-2024 07:38:52 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 173
+[22-Oct-2024 07:40:38 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/index.php on line 170
+[22-Oct-2024 07:40:38 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 172
+[22-Oct-2024 07:40:38 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/index.php on line 170
+[22-Oct-2024 07:40:38 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 172
+[22-Oct-2024 07:40:58 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/index.php on line 171
+[22-Oct-2024 07:40:58 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 173
+[22-Oct-2024 07:40:58 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/index.php on line 171
+[22-Oct-2024 07:40:58 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 173
+[22-Oct-2024 07:42:18 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 173
+[22-Oct-2024 07:42:18 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/index.php on line 173
+[22-Oct-2024 07:47:08 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 369
+[22-Oct-2024 07:47:08 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 369
+[22-Oct-2024 07:47:10 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 369
+[22-Oct-2024 07:47:10 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 369
+[22-Oct-2024 07:48:20 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 369
+[22-Oct-2024 07:48:20 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 369
+[22-Oct-2024 08:02:39 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:39 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:39 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:39 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:39 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:39 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:46 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:46 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:46 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:46 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:46 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:46 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:47 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:47 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:47 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:47 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:47 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:47 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:48 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:48 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:48 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:48 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:02:48 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:02:48 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:04:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'num_of_rooms' in 'field list' in /home/ryuuxvii/public_html/RealEstate/listing.php:7
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/listing.php(7): mysqli->query()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/listing.php on line 7
+[22-Oct-2024 08:04:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'num_of_rooms' in 'field list' in /home/ryuuxvii/public_html/RealEstate/listing.php:7
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/listing.php(7): mysqli->query()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/listing.php on line 7
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 346
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 346
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 346
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:06 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 346
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 346
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 346
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:08 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:22 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:22 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:22 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:22 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:22 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:22 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:23 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:23 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:23 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:23 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:05:23 UTC] PHP Warning:  Undefined array key "num_of_rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 353
+[22-Oct-2024 08:05:23 UTC] PHP Warning:  Undefined array key "num_of_bathrooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 354
+[22-Oct-2024 08:14:35 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 364
+[22-Oct-2024 08:14:35 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 368
+[22-Oct-2024 08:14:35 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 364
+[22-Oct-2024 08:14:35 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 368
+[22-Oct-2024 08:14:35 UTC] PHP Warning:  Undefined array key "image" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 364
+[22-Oct-2024 08:14:35 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 368
+[22-Oct-2024 08:15:48 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 368
+[22-Oct-2024 08:15:48 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 368
+[22-Oct-2024 08:15:48 UTC] PHP Warning:  Undefined array key "rooms" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 368
+[22-Oct-2024 08:28:51 UTC] PHP Warning:  Undefined array key "garage_space" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 376
+[22-Oct-2024 08:28:51 UTC] PHP Warning:  Undefined array key "garage_space" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 376
+[22-Oct-2024 08:28:51 UTC] PHP Warning:  Undefined array key "garage_space" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 376
+[22-Oct-2024 08:39:01 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 203
+[22-Oct-2024 08:39:11 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 203
+[22-Oct-2024 08:40:04 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 203
+[22-Oct-2024 08:40:06 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 203
+[22-Oct-2024 08:40:51 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 203
+[22-Oct-2024 08:41:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'garage_capacity' in 'field list' in /home/ryuuxvii/public_html/RealEstate/edit_property.php:28
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/edit_property.php(28): mysqli->prepare()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 28
+[22-Oct-2024 08:44:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/ryuuxvii/public_html/RealEstate/edit_property.php:50
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/edit_property.php(50): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 50
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:52:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:52:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:53:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 109
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 113
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 114
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 115
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 116
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 121
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 122
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 126
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 129
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 132
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 135
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 138
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Undefined variable $property in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 141
+[22-Oct-2024 08:56:38 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:56:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:56:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:39 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:39 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:39 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:51 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:51 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:51 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:57:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 08:58:33 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #1 must be of type array, int given in /home/ryuuxvii/public_html/RealEstate/edit_property.php:71
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/edit_property.php(71): array_merge()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/edit_property.php on line 71
+[22-Oct-2024 09:00:42 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:00:42 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:00:42 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:00:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:00:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:00:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:01:18 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:01:18 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:01:18 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:01:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:01:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:01:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:23 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:23 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:23 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:33 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:33 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:33 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:42 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:42 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:42 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:02:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:04:48 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:04:48 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:04:48 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:11 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:11 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:11 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:48 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:48 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:48 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:56 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:56 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:06:56 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:52 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:56 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:56 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:56 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:09:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:44 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:44 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:44 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:45 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:10:45 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:10:45 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:10:46 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:46 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:10:46 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:11:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:11:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:11:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:11:23 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:11:23 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:11:23 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:11:41 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:11:41 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:11:41 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 206
+[22-Oct-2024 09:13:15 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 282
+[22-Oct-2024 09:13:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 283
+[22-Oct-2024 09:13:15 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 282
+[22-Oct-2024 09:13:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 283
+[22-Oct-2024 09:13:15 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 282
+[22-Oct-2024 09:13:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 283
+[22-Oct-2024 09:13:43 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:13:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:13:43 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:13:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:13:43 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:13:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:13:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:13:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:13:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:13:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:13:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:13:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:14:00 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:14:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:14:00 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:14:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:14:00 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:14:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:14:11 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:14:11 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:14:11 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:14:31 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:14:31 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:14:31 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:14:34 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:14:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:14:34 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:14:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:14:34 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:14:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:15:06 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:15:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:15:06 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:15:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:15:06 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:15:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:43 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:43 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:43 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:45 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:45 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:45 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:58 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:58 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:16:58 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:16:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:19 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:37 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:37 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:37 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:46 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:46 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:46 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:17:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:17:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:18:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:18:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:18:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:18:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:18:55 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/profile.php on line 323
+[22-Oct-2024 09:18:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/ryuuxvii/public_html/RealEstate/profile.php on line 324
+[22-Oct-2024 09:19:17 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:19:17 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:19:17 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:19:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:19:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:19:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:23:07 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:23:07 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:23:07 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:23:08 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:23:08 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:23:08 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 335
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 342
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 335
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 342
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 335
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 342
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 335
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 342
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "image_path" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 335
+[22-Oct-2024 09:26:53 UTC] PHP Warning:  Undefined array key "garage_capacity" in /home/ryuuxvii/public_html/RealEstate/listing.php on line 342
+[22-Oct-2024 09:27:05 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:27:05 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:27:05 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:28:16 UTC] PHP Warning:  Undefined variable $listingType in /home/ryuuxvii/public_html/RealEstate/listing.php on line 342
+[22-Oct-2024 09:28:16 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 359
+[22-Oct-2024 09:28:16 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 359
+[22-Oct-2024 09:28:16 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 359
+[22-Oct-2024 09:28:30 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:28:30 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:28:30 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:28:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:28:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:28:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:29:54 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:29:54 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:29:54 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:30:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'adnaanhoosen52@gmail.com' for key 'agents.email' in /home/ryuuxvii/public_html/RealEstate/register.php:41
+Stack trace:
+#0 /home/ryuuxvii/public_html/RealEstate/register.php(41): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ryuuxvii/public_html/RealEstate/register.php on line 41
+[22-Oct-2024 09:32:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:32:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:32:32 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:32:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:32:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:32:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:33:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:33:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:33:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:33:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:33:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:33:21 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:33:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:33:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:33:22 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/listing.php on line 355
+[22-Oct-2024 09:34:28 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:34:28 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178
+[22-Oct-2024 09:34:28 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/ryuuxvii/public_html/RealEstate/index.php on line 178

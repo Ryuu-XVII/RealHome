@@ -1,0 +1,233 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url(images/pic1.JPEG);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+#property-list, #agent-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#property-list .property-card, #agent-list .agent-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    flex: 1 1 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    margin-top: 200px;
+}
+
+/* Update in css/style.css */
+#search-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#search-filter input, #search-filter select, #search-filter button {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-filter button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Update in css/style.css */
+#agent-list .agent-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+#agent-list .agent-card ul li {
+    margin: 5px 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    #search-filter {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #property-list, #agent-list {
+        flex-direction: column;
+    }
+
+    #property-list .property-card, #agent-list .agent-card {
+        flex: 1 1 100%;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #property-list .property-card, #agent-list .agent-card {
+        flex: 1 1 45%;
+    }
+}
+
+/* Update in css/style.css */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form textarea {
+    height: 150px; /* Adjust this height as needed */
+    resize: vertical; /* Allow user to resize vertically */
+    width: 390px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}
+
+/* Update in css/style.css */
+#dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#listings .listing {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#listings .listing h3 {
+    margin-top: 0;
+}
+
+#listings .listing img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#listings .listing button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#listings .listing button:hover {
+    background-color: #c9302c;
+}
+
+/* Update in css/style.css */
+#image-preview {
+    margin-top: 15px;
+}
+
+#image-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+}

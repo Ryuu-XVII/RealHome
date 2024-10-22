@@ -1,0 +1,227 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/pic1.JPEG') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Listing container styling */
+.listing-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+/* Heading style */
+.listing-container h2 {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+/* Search form styling */
+#searchForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#searchForm label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#searchForm input[type="text"],
+#searchForm input[type="number"],
+#searchForm select {
+    width: 100%; /* Full width on mobile */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#searchForm button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Properties container */
+#properties {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual property card */
+.property-card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 4px solid transparent;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Property image */
+.property-card .property-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Property information */
+.property-card p {
+    margin: 5px 0;
+    color: white;
+}
+
+.property-card p:first-of-type {
+    font-weight: bold;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #575757;
+    border-color: #575757;
+}
+
+.pagination .active {
+    background-color: #007BFF;
+    color: white;
+    border-color: #007BFF;
+}
+
+.pagination .disabled {
+    color: #888;
+    cursor: not-allowed;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+/* Responsive Styles for Mobile */
+@media screen and (max-width: 768px) {
+    /* Stack nav items vertically */
+    nav ul {
+        flex-direction: column;
+    }
+
+    /* Make property cards 50% width */
+    .property-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Make property cards full width */
+    .property-card {
+        width: 100%;
+    }
+
+    /* Reduce font size in header for smaller screens */
+    header h1 {
+        font-size: 20px;
+    }
+}
