@@ -1,0 +1,18 @@
+# Ignore temporary upload files and professional photos
+uploads/
+
+# Ignore custom images and branding logos
+images/
+
+# Ignore large error logs
+error_log
+*.log
+
+# Ignore MySQL database schema dumps
+*.sql
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

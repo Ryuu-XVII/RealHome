@@ -1,8 +1,14 @@
 <?php
 require 'db_connection.php'; // Include your database connection
+session_start();
 
-// Query to get all agents from the database
-$query = $conn->query("SELECT * FROM agents");
+// Query to get all agents along with their active listings count dynamically!
+$query = $conn->query("
+    SELECT agents.*, COUNT(properties.id) AS listing_count 
+    FROM agents 
+    LEFT JOIN properties ON agents.username = properties.agent_username 
+    GROUP BY agents.id
+");
 $agents = $query->fetch_all(MYSQLI_ASSOC);
 ?>
 
@@ -11,222 +17,306 @@ $agents = $query->fetch_all(MYSQLI_ASSOC);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RealHome Agents</title>
-    <link rel="stylesheet" href="agents_style.css">
-     <link rel="icon" type="image/x-icon" href="images/logo.jpeg">
-    <style type="text/css">
-        body {
-            background: url(images/pic1.jpeg);
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed;
-}
+    <title>Meet Our Agents - RealHome</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <style>
+        .agents-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
 
-/* General body styles */
-body {
-    font-family: Arial, sans-serif;
-   
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+        .agent-premium-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-md);
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            transition: var(--transition-slow);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+        }
 
-/* Header styling */
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+        .agent-premium-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--accent-gradient);
+            opacity: 0;
+            transition: var(--transition-normal);
+        }
 
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
+        .agent-premium-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--glass-border-hover);
+            box-shadow: var(--shadow-lg), 0 0 30px rgba(13, 148, 136, 0.05);
+        }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+        .agent-premium-card:hover::before {
+            opacity: 1;
+        }
 
-nav ul li {
-    margin: 0 10px;
-}
+        .agent-avatar-wrapper {
+            position: relative;
+            width: 130px;
+            height: 130px;
+            margin-bottom: 20px;
+        }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 8px 16px;
-    transition: background-color 0.3s ease;
-}
+        .agent-avatar {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--radius-full);
+            border: 3px solid rgba(255, 255, 255, 0.05);
+            transition: var(--transition-normal);
+        }
 
-nav ul li a:hover {
-    background-color: #575757;
-    border-radius: 4px;
-}
+        .agent-premium-card:hover .agent-avatar {
+            border-color: var(--accent);
+            box-shadow: var(--accent-glow);
+            transform: scale(1.05);
+        }
 
-@media screen and (max-width: 768px) {
-    /* Stack nav items vertically */
-    nav ul {
-        flex-direction: column;
-    }
+        .agent-badge {
+            position: absolute;
+            bottom: -5px;
+            background: var(--accent-gradient);
+            color: white;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 4px 10px;
+            border-radius: var(--radius-full);
+            letter-spacing: 0.5px;
+            box-shadow: var(--shadow-sm);
+        }
 
-    /* Make property cards 50% width */
-    .property-card {
-        width: calc(50% - 20px);
-    }
-}
+        .agent-stats {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            gap: 15px;
+            border-top: 1px solid var(--glass-border);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 12px 0;
+            margin: 20px 0;
+        }
 
-@media screen and (max-width: 480px) {
-    /* Make property cards full width */
-    .property-card {
-        width: 100%;
-    }
+        .agent-stat-item {
+            text-align: center;
+        }
 
-    /* Reduce font size in header for smaller screens */
-    header h1 {
-        font-size: 20px;
-    }
-}
-/* Agents container styling */
-.agents-container {
-    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
-    backdrop-filter: blur(10px);
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
-    margin: 20px auto;
-    width: 90%;
-}
+        .agent-stat-num {
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--accent);
+        }
 
-/* Heading style */
-h2 {
-    text-align: center;
-    color: white;
-    margin-top: 0;
-}
+        .agent-stat-lbl {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 600;
+        }
 
-/* Agents list grid */
-#agentsList {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* Individual agent card */
-.agent {
-    background-color: rgba(0, 0, 0, 0.6);
-    border: 4px solid transparent;
-    border-radius: 8px;
-    padding: 20px;
-    width: calc(33.33% - 20px); /* Three columns */
-    box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.agent:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Agent profile picture */
-.agent-photo {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Agent information */
-.agent p {
-    margin: 5px 0;
-    color: white;
-}
-
-.agent p:first-of-type {
-    font-weight: bold;
-    color: white;
-}
-
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: auto; /* Makes sure footer stays at the bottom */
-}
-
-footer p {
-    margin: 0;
-}
-
-/* Media query for responsive design */
-@media screen and (max-width: 768px) {
-    .agent {
-        width: calc(50% - 20px); /* Two columns on smaller screens */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .agent {
-        width: 100%; /* Full width on very small screens */
-    }
-}
-
-   
+        .agent-shortcuts {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            margin-top: auto;
+        }
+        .agent-shortcuts a {
+            flex: 1;
+            padding: 10px;
+            font-size: 13px;
+            text-align: center;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition-fast);
+        }
+        .btn-shortcut-email {
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            border: 1px solid var(--glass-border);
+        }
+        .btn-shortcut-email:hover {
+            background: var(--glass-bg);
+            border-color: var(--glass-border-hover);
+        }
+        .btn-shortcut-whatsapp {
+            background: #25d366;
+            color: white;
+        }
+        .btn-shortcut-whatsapp:hover {
+            background: #128c7e;
+            box-shadow: 0 0 15px rgba(37, 211, 102, 0.3);
+        }
     </style>
 </head>
 <body>
-    <!-- Header with navigation menu -->
-    <header>
-        <h1>RealHome</h1>
-        <nav>
+    <div class="body-bg-overlay"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-text">REALHOME</div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="site-header">
+        <div class="logo-container">
+            <a href="index.php">
+                <span class="logo-icon">⌂</span>
+                <span class="logo-text">REALHOME<span class="logo-dot">.</span></span>
+            </a>
+        </div>
+        <nav class="nav-menu">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="listing.php">Listings</a></li>
-                <li><a href="agents.php">Agents</a></li>
+                <li class="active"><a href="agents.php">Agents</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
+                <?php if (isset($_SESSION['username'])): ?>
+                    <li><a href="profile.php">Dashboard</a></li>
+                    <li><a href="logout.php">Logout</a></li>
+                <?php else: ?>
+                    <li><a href="login.html">Login</a></li>
+                <?php endif; ?>
             </ul>
         </nav>
+        <div class="nav-actions">
+            <button class="wishlist-toggle-btn" title="View Saved Properties">
+                🤍 <span class="wishlist-badge" style="display: none;">0</span>
+            </button>
+        </div>
     </header>
 
-    <!-- Main content: Display agents -->
-    <div class="agents-container">
-        <h2 style="text-transform: uppercase">Our Agents</h2>
-        <div id="agentsList">
-            <?php foreach ($agents as $agent): ?>
-                <div class="agent">
-                    <img src="<?php echo $agent['photo']; ?>" alt="Profile Picture" class="agent-photo">
-                    <p>Name: <?php echo $agent['name']; ?></p>
-                    <p>Username: <?php echo $agent['username']; ?></p>
-                    <p>Email: <?php echo $agent['email']; ?></p>
-                    <p>Phone: <?php echo $agent['phone']; ?></p>
+    <div style="padding: 60px 5%; max-width: 1200px; margin: 0 auto;">
+        <!-- Top intro -->
+        <div style="text-align: center; margin-bottom: 50px;" class="reveal active">
+            <h2 style="font-family: var(--font-serif); font-size: 42px; font-weight: 700; color: white;">
+                Meet Our Professional Agents
+            </h2>
+            <p style="color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 10px auto 0;">
+                Our certified premium agents are trained to help you discover, buy, sell, or manage properties with luxury service.
+            </p>
+        </div>
+
+        <!-- Grid of Agents -->
+        <div class="agents-grid">
+            <?php 
+            $count = 0;
+            foreach ($agents as $agent): 
+                $count++;
+                $agent_photo = !empty($agent['photo']) ? htmlspecialchars($agent['photo']) : 'images/logo.png';
+                ?>
+                <div class="agent-premium-card reveal" style="transition-delay: <?php echo ($count % 3) * 0.1; ?>s;">
+                    <div class="agent-avatar-wrapper">
+                        <img src="<?php echo $agent_photo; ?>" alt="Profile Picture" class="agent-avatar">
+                        <span class="agent-badge">Partner Agent</span>
+                    </div>
+
+                    <h3 style="font-size: 20px; font-weight: 700; color: white; margin-bottom: 4px;"><?php echo htmlspecialchars($agent['name']); ?></h3>
+                    <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 15px;">@<?php echo htmlspecialchars($agent['username']); ?></p>
+
+                    <!-- Stats Ribbon -->
+                    <div class="agent-stats">
+                        <div class="agent-stat-item" style="border-right:1px solid var(--glass-border); padding-right: 20px;">
+                            <div class="agent-stat-num"><?php echo intval($agent['listing_count']); ?></div>
+                            <div class="agent-stat-lbl">Listings</div>
+                        </div>
+                        <div class="agent-stat-item">
+                            <div class="agent-stat-num">★★★★★</div>
+                            <div class="agent-stat-lbl">Rating</div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Details -->
+                    <div style="text-align: left; width: 100%; margin-bottom: 20px; font-size: 14px; color: var(--text-secondary); display: flex; flex-direction: column; gap: 8px;">
+                        <div>✉ <?php echo htmlspecialchars($agent['email']); ?></div>
+                        <div>📞 <?php echo htmlspecialchars($agent['phone']); ?></div>
+                    </div>
+
+                    <!-- Direct Shortcuts -->
+                    <div class="agent-shortcuts">
+                        <a href="mailto:<?php echo htmlspecialchars($agent['email']); ?>?subject=RealHome Property Inquiry" class="btn-shortcut-email">
+                            Email
+                        </a>
+                        <!-- Clean Whatsapp simulated link using standard international formats -->
+                        <a href="https://wa.me/<?php echo preg_replace('/[^0-9]/', '', $agent['phone']); ?>?text=Hi%20<?php echo urlencode($agent['name']); ?>,%20I'm%20inquiring%20about%20a%20property%20on%20RealHome." 
+                           target="_blank" 
+                           class="btn-shortcut-whatsapp">
+                            WhatsApp
+                        </a>
+                    </div>
                 </div>
             <?php endforeach; ?>
         </div>
     </div>
 
-    <!-- Footer section -->
-    <footer>
-        <p>&copy; 2024 RealHome. All rights reserved.</p>
+    <!-- Sliding Wishlist Drawer Components -->
+    <div class="wishlist-overlay"></div>
+    <div class="wishlist-drawer">
+        <div class="wishlist-drawer-header">
+            <h3>Saved Properties</h3>
+            <button class="wishlist-close-btn">&times;</button>
+        </div>
+        <div class="wishlist-items-container">
+            <!-- Populated via js/app.js -->
+        </div>
+    </div>
+
+    <!-- Premium Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <div class="logo-container footer-logo">
+                    <a href="index.php">
+                        <span class="logo-icon">⌂</span>
+                        <span class="logo-text">REALHOME<span class="logo-dot">.</span></span>
+                    </a>
+                </div>
+                <p class="footer-text">
+                    Bringing you the premium, high-end visual real estate experience in South Africa. Browse, calculate, enquire, and find your perfect home seamlessly.
+                </p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="listing.php">Property Listings</a></li>
+                    <li><a href="agents.php">RealHome Agents</a></li>
+                    <li><a href="contact.php">Contact Agent</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Contact Us</h4>
+                <p class="footer-text" style="margin-bottom: 10px;">📍 100 Luxury Drive, Sandton, 2196</p>
+                <p class="footer-text" style="margin-bottom: 10px;">✉ info@realhome.co.za</p>
+                <p class="footer-text">📞 +27 (0) 11 555 0192</p>
+            </div>
+        </div>
+        
+        <div class="footer-copyright">
+            &copy; 2026 RealHome. All rights reserved.
+        </div>
     </footer>
+
+    <!-- Master Scripts -->
+    <script src="js/app.js"></script>
 </body>
 </html>

@@ -1,196 +1,170 @@
-<!-- login.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - RealHome</title>
-    <link rel="stylesheet" href="login_style.css">
-     <link rel="icon" type="image/x-icon" href="images/logo.jpeg">
-    <style type="text/css">
-        body {
-            background: url(images/pic1.jpeg);
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed;
-}
-
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-   
-}
-
-/* Header Styles */
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-/* Navigation Styles */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 8px 16px;
-    transition: background-color 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #575757;
-    border-radius: 4px;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 200px;
-}
-
-/* Login Container Styles */
-.login-container {
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent white for better contrast */
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 100px auto;
-    max-width: 400px; /* Limit width on larger screens */
-    width: 90%; /* Take up most of the screen width on mobile */
-    color: white;
-    text-align: center;
-}
-
-/* Form Styles */
-h2 {
-    margin-top: 0;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-input {
-    width: 100%; /* Full width input fields */
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column; /* Stack nav items vertically */
-        text-align: center;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .login-container {
-        margin: 50px auto; /* Reduce margin on smaller screens */
-        width: 90%; /* Use most of the screen width */
-        padding: 20px; /* Adjust padding for small screens */
-    }
-
-    input, button {
-        font-size: 16px; /* Increase text size for accessibility */
-    }
-}
-
-/* Tablet Styles */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .login-container {
-        width: 70%; /* Slightly larger width on tablet */
-    }
-}
-
-   
-    </style>
+    <title>Account Access Login - RealHome</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
-    <header>
-        <h1>RealHome</h1>
-        <nav>
+    <div class="body-bg-overlay"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-text">REALHOME</div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="site-header">
+        <div class="logo-container">
+            <a href="index.php">
+                <span class="logo-icon">⌂</span>
+                <span class="logo-text">REALHOME<span class="logo-dot">.</span></span>
+            </a>
+        </div>
+        <nav class="nav-menu">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="listing.php">Listings</a></li>
                 <li><a href="agents.php">Agents</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li class="active"><a href="login.html">Login</a></li>
             </ul>
         </nav>
+        <div class="nav-actions">
+            <button class="wishlist-toggle-btn" title="View Saved Properties">
+                🤍 <span class="wishlist-badge" style="display: none;">0</span>
+            </button>
+        </div>
     </header>
 
-    
+    <div style="padding: 60px 5%; max-width: 500px; margin: 0 auto;">
+        
+        <!-- Glassmorphic Login Card -->
+        <div class="glass-panel reveal active" style="padding: 40px 30px;">
+            <h2 id="loginTitle" style="font-family: var(--font-serif); font-size: 32px; font-weight:700; color:white; text-align:center; text-transform:uppercase; letter-spacing:1px; margin-bottom: 5px;">
+                Client Access
+            </h2>
+            <p id="loginSubtitle" style="color: var(--text-muted); font-size: 14px; text-align:center; margin-bottom: 25px;">
+                Sign in to sync and save your favorite property listings.
+            </p>
 
-   <div class="login-container">
-        <h2 style="text-transform: uppercase">Agent Login</h2>
-        <form id="loginForm" action="login.php" method="POST">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <!-- Role Selector tabs -->
+            <div class="role-selector-tabs" style="display: flex; background: rgba(0, 0, 0, 0.25); padding: 4px; border-radius: var(--radius-sm); margin-bottom: 25px; border: 1px solid var(--glass-border);">
+                <button type="button" class="tab-btn" id="btnClientRole" onclick="setRole('client')" style="flex: 1; padding: 10px; background: none; border: none; color: white; font-weight: 700; cursor: pointer; border-radius: var(--radius-sm); transition: var(--transition-fast); outline:none;">Client Portal</button>
+                <button type="button" class="tab-btn" id="btnAgentRole" onclick="setRole('agent')" style="flex: 1; padding: 10px; background: none; border: none; color: var(--text-muted); font-weight: 700; cursor: pointer; border-radius: var(--radius-sm); transition: var(--transition-fast); outline:none;">Agent Portal</button>
+            </div>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br><br>
-            <br>
+            <form id="loginForm" action="login.php" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
+                <input type="hidden" name="role" id="formRole" value="client">
+                
+                <div class="form-group" style="margin-bottom:0;">
+                    <label class="form-label" for="username">Username</label>
+                    <input type="text" id="username" name="username" class="form-input" required placeholder="e.g. Adnaan">
+                </div>
 
-            <button type="submit">Login</button>
-        </form>
+                <div class="form-group" style="margin-bottom:0;">
+                    <label class="form-label" for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-input" required placeholder="••••••••">
+                </div>
+
+                <button type="submit" class="btn-primary" style="padding: 14px; border-radius: var(--radius-sm); font-size: 16px; margin-top: 10px; width: 100%;">
+                    <span>🔓 Secure Sign In</span>
+                </button>
+            </form>
+
+            <div style="margin-top: 25px; text-align: center; font-size: 14px; color: var(--text-secondary);">
+                Don't have an account? <a href="register.html" style="color: var(--accent); font-weight:600; text-decoration:none; transition:var(--transition-fast);" onmouseover="this.style.color='var(--text-primary)'" onmouseout="this.style.color='var(--accent)'">Register here</a>
+            </div>
+        </div>
     </div>
 
-    <script src="scripts1.js"></script>
+    <!-- Sliding Wishlist Drawer Components -->
+    <div class="wishlist-overlay"></div>
+    <div class="wishlist-drawer">
+        <div class="wishlist-drawer-header">
+            <h3>Saved Properties</h3>
+            <button class="wishlist-close-btn">&times;</button>
+        </div>
+        <div class="wishlist-items-container">
+            <!-- Populated via js/app.js -->
+        </div>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 RealHome. All rights reserved.</p>
+    <!-- Premium Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <div class="logo-container footer-logo">
+                    <a href="index.php">
+                        <span class="logo-icon">⌂</span>
+                        <span class="logo-text">REALHOME<span class="logo-dot">.</span></span>
+                    </a>
+                </div>
+                <p class="footer-text">
+                    Bringing you the premium, high-end visual real estate experience in South Africa. Browse, calculate, enquire, and find your perfect home seamlessly.
+                </p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="listing.php">Property Listings</a></li>
+                    <li><a href="agents.php">RealHome Agents</a></li>
+                    <li><a href="contact.php">Contact Agent</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Contact Us</h4>
+                <p class="footer-text" style="margin-bottom: 10px;">📍 100 Luxury Drive, Sandton, 2196</p>
+                <p class="footer-text" style="margin-bottom: 10px;">✉ info@realhome.co.za</p>
+                <p class="footer-text">📞 +27 (0) 11 555 0192</p>
+            </div>
+        </div>
+        
+        <div class="footer-copyright">
+            &copy; 2026 RealHome. All rights reserved.
+        </div>
     </footer>
 
+    <!-- Master Scripts -->
     <script src="js/app.js"></script>
+    <script>
+        function setRole(role) {
+            const formRole = document.getElementById('formRole');
+            const btnClient = document.getElementById('btnClientRole');
+            const btnAgent = document.getElementById('btnAgentRole');
+            const title = document.getElementById('loginTitle');
+            const subtitle = document.getElementById('loginSubtitle');
+            
+            formRole.value = role;
+            if (role === 'client') {
+                btnClient.style.background = 'var(--accent-gradient)';
+                btnClient.style.color = 'white';
+                btnAgent.style.background = 'none';
+                btnAgent.style.color = 'var(--text-muted)';
+                title.innerText = 'Client Access';
+                subtitle.innerText = 'Sign in to sync and save your favorite property listings.';
+            } else {
+                btnAgent.style.background = 'var(--accent-gradient)';
+                btnAgent.style.color = 'white';
+                btnClient.style.background = 'none';
+                btnClient.style.color = 'var(--text-muted)';
+                title.innerText = 'Agent Access';
+                subtitle.innerText = 'Enter your credentials to manage listed properties.';
+            }
+        }
+        
+        // Initialise
+        document.addEventListener('DOMContentLoaded', () => {
+            setRole('client');
+        });
+    </script>
 </body>
 </html>
