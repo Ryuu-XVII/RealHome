@@ -55,6 +55,10 @@ class mysqli_result_shim {
     public function fetch_array() {
         return $this->stmt->fetch(PDO::FETCH_BOTH);
     }
+    public function fetch_all($mode = 1) { // 1 = MYSQLI_ASSOC in most standard setups
+        // We'll just return ASSOC if mode is not specified since that's what's used
+        return $this->stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
 
 class mysqli_stmt_shim {
