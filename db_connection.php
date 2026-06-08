@@ -98,8 +98,59 @@ class mysqli_shim {
 
     public function __construct($host, $user, $pass, $dbname, $port) {
         try {
-            $dsn = "pgsql:host=$host;port=$port;dbname=$dbname";
-            $this->pdo = new PDO($dsn, $user, $pass, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+            $this->pdo = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $pass, [
+                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+            ]);
+
+            // --- AUTO MIGRATE TABLES IF THEY DON'T EXIST ---
+            try {
+                $this->pdo->query("SELECT 1 FROM agents LIMIT 1");
+            } catch (PDOException $e) {
+                // If agents table doesn't exist, create all required tables automatically
+                $this->pdo->exec("
+                    CREATE TABLE IF NOT EXISTS agents (
+                      id SERIAL PRIMARY KEY,
+                      name VARCHAR(255) NOT NULL,
+                      username VARCHAR(50) NOT NULL UNIQUE,
+                      password_hash CHAR(64) NOT NULL,
+                      email VARCHAR(255) NOT NULL UNIQUE,
+                      phone VARCHAR(20) DEFAULT NULL,
+                      photo VARCHAR(255) DEFAULT NULL,
+                      created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+                    );
+
+                    CREATE TABLE IF NOT EXISTS properties (
+                      id SERIAL PRIMARY KEY,
+                      agent_username VARCHAR(50) NOT NULL,
+                      property_type VARCHAR(50) NOT NULL,
+                      listing_type VARCHAR(50) DEFAULT NULL,
+                      address VARCHAR(255) NOT NULL,
+                      price DECIMAL(10,2) NOT NULL,
+                      bedrooms INT NOT NULL,
+                      bathrooms INT NOT NULL,
+                      garage INT NOT NULL,
+                      floor_size DECIMAL(10,2) NOT NULL,
+                      images TEXT,
+                      created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+                    );
+
+                    CREATE TABLE IF NOT EXISTS users (
+                      id SERIAL PRIMARY KEY,
+                      username VARCHAR(50) NOT NULL UNIQUE,
+                      password_hash CHAR(64) NOT NULL,
+                      created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+                    );
+
+                    CREATE TABLE IF NOT EXISTS sessions (
+                      id SERIAL PRIMARY KEY,
+                      session_id CHAR(64) NOT NULL UNIQUE,
+                      username VARCHAR(50) NOT NULL REFERENCES users(username),
+                      created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+                    );
+                ");
+            }
+            // -----------------------------------------------
+
         } catch (PDOException $e) {
             $this->connect_error = $e->getMessage();
         }

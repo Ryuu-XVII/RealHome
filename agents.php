@@ -9,6 +9,11 @@ $query = $conn->query("
     LEFT JOIN properties ON agents.username = properties.agent_username 
     GROUP BY agents.id
 ");
+
+if ($query === false) {
+    die("Database Error: " . $conn->error);
+}
+
 $agents = $query->fetch_all(MYSQLI_ASSOC);
 ?>
 
