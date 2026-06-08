@@ -18,11 +18,12 @@ if (file_exists(__DIR__ . '/.env')) {
 }
 
 // Fetch Supabase PostgreSQL credentials from environment variables
-$host = getenv('DB_HOST') ?: "127.0.0.1";
-$user = getenv('DB_USER') ?: "postgres";
-$pass = getenv('DB_PASS') ?: "";
-$dbname = getenv('DB_NAME') ?: "postgres";
-$port = getenv('DB_PORT') ?: "5432";
+// These exact names are auto-populated by the Vercel Supabase Integration
+$host = getenv('POSTGRES_HOST') ?: getenv('DB_HOST') ?: "127.0.0.1";
+$user = getenv('POSTGRES_USER') ?: getenv('DB_USER') ?: "postgres";
+$pass = getenv('POSTGRES_PASSWORD') ?: getenv('DB_PASS') ?: "";
+$dbname = getenv('POSTGRES_DATABASE') ?: getenv('DB_NAME') ?: "postgres";
+$port = getenv('DB_PORT') ?: "5432"; // Supabase connection pooler uses 5432 or 6543, defaulting to 5432.
 
 // ------------------------------------------------------------------
 // PostgreSQL (PDO) to MySQLi compatibility shim
