@@ -105,6 +105,13 @@ class mysqli_shim {
             // --- AUTO MIGRATE TABLES IF THEY DON'T EXIST ---
             try {
                 $this->pdo->query("SELECT 1 FROM agents LIMIT 1");
+                
+                // If tables exist, let's ensure 'users' has the newly required email and phone columns!
+                $this->pdo->exec("
+                    ALTER TABLE users 
+                    ADD COLUMN IF NOT EXISTS email VARCHAR(255),
+                    ADD COLUMN IF NOT EXISTS phone VARCHAR(20);
+                ");
             } catch (PDOException $e) {
                 // If agents table doesn't exist, create all required tables automatically
                 $this->pdo->exec("
@@ -138,6 +145,8 @@ class mysqli_shim {
                       id SERIAL PRIMARY KEY,
                       username VARCHAR(50) NOT NULL UNIQUE,
                       password_hash CHAR(64) NOT NULL,
+                      email VARCHAR(255),
+                      phone VARCHAR(20),
                       created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
                     );
 
