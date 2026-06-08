@@ -54,7 +54,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 header('Location: profile.php'); // Redirect to agent profile dashboard
                 exit();
             } else {
-                echo "<script>alert('Agent registration failed: Username or Email may already exist.'); window.history.back();</script>";
+                $real_error = addslashes($query->error ?? $conn->error ?? "Unknown DB Error");
+                echo "<script>alert('Agent Database Error: " . $real_error . "'); window.history.back();</script>";
                 exit();
             }
         } else {
@@ -79,7 +80,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             header('Location: index.php');
             exit();
         } else {
-            echo "<script>alert('Client registration failed: Username or Email may already exist.'); window.history.back();</script>";
+            $real_error = addslashes($query->error ?? $conn->error ?? "Unknown DB Error");
+            echo "<script>alert('Database Error: " . $real_error . "'); window.history.back();</script>";
             exit();
         }
     }
